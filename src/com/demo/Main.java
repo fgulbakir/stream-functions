@@ -1,4 +1,5 @@
 package com.demo;
+
 import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.stream.Collectors;
@@ -52,7 +53,7 @@ public class Main {
 
 
         //group
-        System.out.println("Vehicles are grouped");
+        System.out.println("Vehicles are grouped by brandName");
         Map<Brand, List<Vehicle>> groupByBrand = vehicles.stream()
                 .collect(Collectors.groupingBy(Vehicle::getBrandName));
 

@@ -14,14 +14,12 @@ public class Vehicle {
                    BodyStyle bodyStyle,
                    Color color,
                    FuelType fuelType
-
     ) {
         this.brandName = brandName;
         this.dateOfRegistration = dateOfRegistration;
         this.bodyStyle = bodyStyle;
         this.color = color;
         this.fuelType = fuelType;
-
     }
 
     public Brand getBrandName() {

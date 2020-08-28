@@ -8,5 +8,4 @@ public enum BodyStyle {
     MPV,
     CONVERTIBLE,
     CITYCAR
-
 }
